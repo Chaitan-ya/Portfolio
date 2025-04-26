@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- <link rel="stylesheet" href="script.js"> -->
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Chaitanya</div>
+        <div >
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>  
+              <li><a href ="#experience" onclick="toggleMenu( )">Experience</a></li>
+              <li> <a href ="#projects"> Projects</a></li>  
+              <li><a href ="#contact">Contact</a></li>  
+               
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">Chaitanya</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>  
+                <li><a href ="#experience" onclick="toggleMenu( )">Experience</a></li>
+                <li> <a href ="#projects" onclick="toggleMenu()"> Projects</a></li>    
+                <li><a href ="#Contact" onclick="toggleMenu( )">Contact</a></li>     
+            </div>
+        </div>
+    </nav>
+ <section id="profile">
+    <div class="section_pic-container">
+        <img src="./assets/Chaitanya_.jpg" class="img"  alt="Chaitanya Profile pic">
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1">Hello,I'm</p>
+        <h1 class="title" >Shiva Chaitanya</h1>
+        <p class="section_text_p2">FullStack Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-1" onclick="window.open('./assets/Resume_Chaitanya.pdf')">Resume</button>
+            <button class="btn btn-color-2" onclick="location.href='./#Contact'">Contact</button>
+        </div>
+       <div id="social-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn Profile"
+            class="icon" onclick="location.href='https://www.linkedin.com/in/shivachaitanya1/ '">
+            <img src="./assets/github.png" alt="github Profile"
+            class="icon" onclick="location.href='https://github.com/Chaitan-ya'">
+       </div>
+    </div>
+ </section>
+ <section id="about">
+    <p class="section_text_p1">Get to Know More</p>
+    <h1 class="title">About Me</h1>
+    <!-- <div class="section_pic-container">
+
+    </div> -->
+    <div class="about-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <img src="./assets/experience.png" alt="exp-icon" class="icon">
+                <h3>Experience</h3>
+                <p>1+ Year <br> FullStack Development</p>
+            </div>
+            <div class="details-container">
+                <img src="./assets/education.png" alt="edu-icon" class="icon">
+                <h3>Education</h3>
+                <p>B.tech <br> Computers & Electronics Engineering</p>
+            </div>
+        </div>
+        <div class="text-container">
+            <p class="about-p">
+                I'm Shiva Chaitanya, a nascent FullStack Developer eager to learn and contribute to the exciting realm of web development. As an aspiring full-stack developer.I'm interested in constructing web applications using front-end technologies like HTML, CSS, JavaScript, and React.js, alongside back-end proficiency in Java,Servlets,Spring Boot, MySQL, and MongoDB. Fervent about project work and proficient in these areas, I excel at adapting to modern frameworks and databases to engineer robust solutions.
+                 Driven by a desire to solve complex challenges and contribute to innovative product development, I am actively seeking opportunities to apply analytical skills and technical acumen.   </p>
+        </div>
+    </div>
+    <img src="assets/arrow.png" alt="Arrow Icon"
+     class="arrow icon" onclick="location.href='./#experience'">
+ </section>
+ <section id="experience">
+    <p class="section_text_p1"> Explore Me</p>
+    <h1 class="title"> Experience</h1>
+    <div class="about-containers">
+        <div class="details-container exp-details-container">
+            <h2 class="exp-sub-title">
+                FrontEnd-Development
+            </h2>
+            <div class="article-container">
+                <article>
+                    <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                    <div>
+                        <h3>HTML</h3>
+                        <P>Experienced</P>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                    <div>
+                        <h3>CSS</h3>
+                        <P>Experienced</P>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                    <div>
+                        <h3>JAVASCRIPT</h3>
+                        <P>Intermediate</P>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                    <div>
+                        <h3>REACTJS</h3>
+                        <P>Intermediate</P>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="details-container exp-details-container">
+            <h2 class="exp-sub-title">
+                BackEnd-Development
+            </h2>
+            <div class="article-container">
+                <article>
+                    <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                    <div>
+                        <h3>JAVA</h3>
+                        <P>Experienced</P>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                    <div>
+                        <h3>Spring Boot</h3>
+                        <P>Experienced</P>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                    <div>
+                        <h3>MYSQL</h3>
+                        <P>Experienced</P>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                    <div>
+                        <h3>MongoDB</h3>
+                        <P>Intermediate</P>
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+    </div>
+    <img src="assets/arrow.png" alt="Arrow Icon"
+    class="arrow icon" onclick="location.href='./#projects'">
+ </section>
+ <section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="exp-details-container">
+      <div class="about-containers">
+            <div class=" color-container">
+                <img src="./assets/project-1.png" alt="project-1" class="project-img">
+                <h2 class="exp-sub-title project-title">Ecommerce - Web Application</h2>
+                <div class="btn-container">
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Chaitan-ya/EcommerceWebApplication_Java.git'">
+                    github</button>
+                    <!-- <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Chaitan-ya'">
+                    LiveDemo</button> -->
+                </div>
+            </div>
+            <div class=" color-container">
+                <img src="./assets/project-2.png" alt="project-1" class="project-img">
+                <h2 class="exp-sub-title project-title">Search-Engine By using java</h2>
+                <div class="btn-container">
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Chaitan-ya'">
+                    github</button>
+                    <!-- <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Chaitan-ya'">
+                    LiveDemo</button> -->
+                </div>
+            </div>
+            <div class=" color-container" >
+                <img src="./assets/project-3.png" alt="project-1" class="project-img" >
+                <h2 class="exp-sub-title project-title">Movie Review - Application</h2>
+                <div class="btn-container">
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Chaitan-ya/SearchEngine.git'">
+                    github</button>
+                    <!-- <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/Chaitan-ya'">
+                    LiveDemo</button> -->
+                </div>
+            </div>
+       
+         </div>
+        
+    </div>
+    <img src="assets/arrow.png" alt="Arrow Icon"
+    class="arrow icon" onclick="location.href='./#contact'">
+
+ </section>
+ <section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:examplemail@gmail.com">TopulaChaitanya@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/shivachaitanya1/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Shiva Chaitanya. All Rights Reserved.</p>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
